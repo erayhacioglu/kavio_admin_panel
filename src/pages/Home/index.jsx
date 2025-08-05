@@ -1,7 +1,6 @@
 import "./home.scss";
 import InfoCard from "../../components/InfoCard";
 import Carousel from "../../components/Carousel";
-import BreadCrumb from "../../components/Breadcrumb";
 
 const App = () => {
   return (
