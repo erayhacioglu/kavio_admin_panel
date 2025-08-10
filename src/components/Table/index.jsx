@@ -112,7 +112,7 @@ const Table = ({
 
   return (
     <div className="data-table-container">
-      <div className="row">
+      <div className="row mb-4 d-flex align-items-center">
         <div className="col-md-4">
           <div className="form_group">
             <input

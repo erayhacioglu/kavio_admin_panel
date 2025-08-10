@@ -28,6 +28,20 @@ button {
   margin-top: 25px;
 }
 
+.btn_groups{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7.5px;
+}
+
+.btn_center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff !important;
+}
+
 .content {
   position: relative;
   height: 100%;
