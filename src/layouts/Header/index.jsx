@@ -26,7 +26,7 @@ const Header = ({ sidebar, setSidebar }) => {
   return (
     <>
       <header className={`header ${isScrolled ? "scrolled" : ""}`}>
-        <div className="container">
+        <div className="container-fluid">
           <div className="header_container">
             <button
               className="header_toggle_button"

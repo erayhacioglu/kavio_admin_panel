@@ -19,7 +19,7 @@ const List = () => {
 
   return (
     <div className="container">
-      <BreadCrumb pageTitle="Table Component Örnek" topTitle="Açılır Menü" />
+      <BreadCrumb pageTitle="Admin Listesi" topTitle="Admin Yönetimi" />
       <div className="row margin-25">
         <div className="col-md-12">
           <Table
@@ -30,6 +30,13 @@ const List = () => {
               size: params.size,
               keyword: params.keyword,
             })}
+            headerButtons={
+              <>
+                <button className="btn btn-sm btn-primary">Button 1</button>
+                <button className="btn btn-sm btn-success">Button 2</button>
+                <button className="btn btn-sm btn-danger">Button 3</button>
+              </>
+            }
           />
         </div>
       </div>

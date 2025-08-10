@@ -7,7 +7,7 @@ const Create = () => {
       <div className="col-12">
         <div className="custom_card">
           <div className="custom_card_header">
-            Basic Form
+            <span className="custom_card_title">Basic Form</span>
           </div>
           <div className="custom_card_body">
             <div className="row">
